@@ -11,14 +11,14 @@ OBJ = $(SRCS:.c=.o)
 NAME = libftprintf.a
 
 all: $(NAME)
-	@echo "All Good"
+	@echo "Library Created"
 	
 
 $(NAME): $(OBJ)
 	@$(AR) $(NAME) $(OBJ)
 
 %.o: %.c ft_printf.h
-	$(CC) $(CFLAGS) -c $< -o $@
+	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	@echo "Cleaned"
