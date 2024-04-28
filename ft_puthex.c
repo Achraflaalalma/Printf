@@ -6,7 +6,7 @@
 /*   By: alaalalm <alaalalm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 18:34:23 by alaalalm          #+#    #+#             */
-/*   Updated: 2023/12/02 18:05:06 by alaalalm         ###   ########.fr       */
+/*   Updated: 2024/04/28 19:36:13 by alaalalm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,7 @@ static size_t	ft_strlen(const char *str)
 
 	i = 0;
 	while (str[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }
 
